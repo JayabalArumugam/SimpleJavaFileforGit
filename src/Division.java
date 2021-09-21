@@ -7,5 +7,7 @@ public class Division {
 
         System.out.println("Sum of two numbers is: " + C);
         System.out.println("Code passed");
+        C=a+b-a*b/a+a-b+C*a;
+        System.out.println("the merged numbers are:"+C);
     }
 }
